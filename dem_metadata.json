@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Belmar DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Belmar Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 3163,
+  "height": 2077,
+  "nodata": -999999,
+  "minMeters": -1.62,
+  "maxMeters": 7.805,
+  "meanMeters": 2.266,
+  "stdDevMeters": 2.246,
+  "minFeet": -5.314960629900001,
+  "maxFeet": 25.606955380475,
+  "webMercatorBounds": [
+    -8243271.990255,
+    4890265.746346,
+    -8238451.5782550005,
+    4893431.094346
+  ],
+  "leafletBounds": [
+    [
+      40.1671832,
+      -74.0505722
+    ],
+    [
+      40.188902,
+      -74.00727
+    ]
+  ],
+  "files": {
+    "demCog": "belmar_dem_5ft_cog.tif",
+    "hillshadeCog": "belmar_hillshade_cog.tif",
+    "hillshadePng": "belmar_hillshade.png",
+    "boundaryGeojson": "belmar_boundary.geojson"
+  }
+}
